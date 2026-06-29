@@ -1,6 +1,4 @@
-# Local source/build workspace. The GitHub Pages repository tracks only
-# static deploy files at the repository root: index.html and assets/.
-/src/
+# === Project website build workspace (only index.html + assets/ are deployed) ===
 /public/
 /node_modules/
 /dist/
@@ -10,9 +8,32 @@
 /tsconfig.json
 /tsconfig.tsbuildinfo
 /vite.config.ts
-/.env
-/.env.*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# === Environment files (keep the example template) ===
+.env
+.env.local
+!.env.example
+
+# === Python (evaluation toolkit) ===
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+
+# === Pipeline outputs ===
+runs/
+*.judged.jsonl
+*_na_in_cache.jsonl
+task1_*.csv
+task1_*.jsonl
+
+# === OS / editor ===
+.DS_Store
+.idea/
+.vscode/

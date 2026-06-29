@@ -1,0 +1,7 @@
+openai>=1.0
+pandas>=1.5
+openpyxl>=3.1
+numpy>=1.23
+requests>=2.28
+# Optional: load the dataset directly from the Hugging Face Hub
+# datasets>=2.14

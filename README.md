@@ -212,7 +212,7 @@ MMC-QA/
 @article{mmcqa,
   title  = {MMC-QA: A Natively Sourced Multilingual and Multicultural Question Answering Benchmark},
   author = {Chen, Xianru and Huang, Yukai and Chen, Mingxiang and Lei, Xinping and
-            Deng, Fangbing and Chen, Jin and Liu, Jiaheng},
+            Deng, Fangbing and Chen, Jin and Zhang, Ge and Huang, Wenhao and Liu, Jiaheng},
   year   = {2026}
 }
 ```

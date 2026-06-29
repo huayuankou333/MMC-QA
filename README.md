@@ -19,10 +19,6 @@ your own models.
 - 🌐 Project website: <https://huayuankou333.github.io/MMC-QA>
 - 🤗 Dataset: <https://huggingface.co/datasets/m-a-p/MMC-QA>
 
-> The Hugging Face dataset id (`ANONYMOUS/MMC-QA`) is still a placeholder — set
-> the final id here, in `data/README.md`, and in `src/mmc_qa/data.py` once the
-> dataset is published. A ready-to-use copy ships under `data/` in the meantime.
-
 ---
 
 ## What's in the benchmark
@@ -62,9 +58,9 @@ The first step is always to obtain the data. Two options:
 
 ```bash
 # As files:
-huggingface-cli download ANONYMOUS/MMC-QA --repo-type dataset --local-dir data
+huggingface-cli download m-a-p/MMC-QA --repo-type dataset --local-dir data
 # ...or directly in Python (pip install datasets):
-python -c "from datasets import load_dataset; load_dataset('ANONYMOUS/MMC-QA', split='test')"
+python -c "from datasets import load_dataset; load_dataset('m-a-p/MMC-QA', split='test')"
 ```
 
 **B. Use the copy shipped in this repo**

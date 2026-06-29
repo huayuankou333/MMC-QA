@@ -17,6 +17,11 @@ language:
 pretty_name: MMC-QA
 size_categories:
   - 1K<n<10K
+configs:
+  - config_name: default
+    data_files:
+      - split: test
+        path: mmc_qa.jsonl
 ---
 
 # MMC-QA Dataset Card
@@ -86,7 +91,7 @@ A single split is provided: **`test`** (1,064 items).
 ```python
 # From the Hugging Face Hub
 from datasets import load_dataset
-ds = load_dataset("ANONYMOUS/MMC-QA", split="test")
+ds = load_dataset("m-a-p/MMC-QA", split="test")
 
 # From a local file (this repo)
 from mmc_qa.data import load_dataset

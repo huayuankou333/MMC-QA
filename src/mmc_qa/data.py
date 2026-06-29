@@ -16,7 +16,7 @@ import json
 from pathlib import Path
 from typing import Dict, List, Optional
 
-HF_DATASET_ID = "ANONYMOUS/MMC-QA"  # TODO: replace with the final Hugging Face id
+HF_DATASET_ID = "m-a-p/MMC-QA"  # TODO: replace with the final Hugging Face id
 
 REQUIRED_FIELDS = ("id", "language", "category", "question", "answer")
 

@@ -17,7 +17,7 @@ your own models.
 - 📄 Paper: *MMC-QA: A Natively Sourced Multilingual and Multicultural Question Answering Benchmark*
 - 💻 Code: <https://github.com/huayuankou333/MMC-QA>
 - 🌐 Project website: <https://huayuankou333.github.io/MMC-QA>
-- 🤗 Dataset: <https://huggingface.co/datasets/ANONYMOUS/MMC-QA>
+- 🤗 Dataset: <https://huggingface.co/datasets/m-a-p/MMC-QA>
 
 > The Hugging Face dataset id (`ANONYMOUS/MMC-QA`) is still a placeholder — set
 > the final id here, in `data/README.md`, and in `src/mmc_qa/data.py` once the

@@ -112,4 +112,16 @@ Released under **CC BY 4.0**. Individual items reference third-party sources via
 
 ## Citation
 
-See the repository [`README.md`](../README.md#citation).
+Paper: <https://arxiv.org/abs/2607.00724>
+
+```bibtex
+@misc{chen2026msqanativelysourcedmultilingual,
+      title={MSQA: A Natively Sourced Multilingual and Multicultural SimpleQA Benchmark}, 
+      author={Xianru Chen and Yukai Huang and Mingxiang Chen and Xinping Lei and Fangbing Deng and Jin Chen and Ge Zhang and Wenhao Huang and Jiaheng Liu},
+      year={2026},
+      eprint={2607.00724},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2607.00724}, 
+}
+```

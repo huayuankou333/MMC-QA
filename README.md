@@ -14,7 +14,7 @@ This repository contains the **dataset** and the **evaluation toolkit** used in
 the paper: a clean, three-stage pipeline to reproduce our numbers or evaluate
 your own models.
 
-- 📄 Paper: *MSQA: A Natively Sourced Multilingual and Multicultural SimpleQA Benchmark*
+- 📄 Paper: <https://arxiv.org/abs/2607.00724>
 - 💻 Code: <https://github.com/huayuankou333/MSQA>
 - 🌐 Project website: <https://huayuankou333.github.io/MSQA>
 - 🤗 Dataset: <https://huggingface.co/datasets/m-a-p/MSQA>
@@ -209,11 +209,14 @@ MSQA/
 ## Citation
 
 ```bibtex
-@article{msqa,
-  title  = {MSQA: A Natively Sourced Multilingual and Multicultural SimpleQA Benchmark},
-  author = {Chen, Xianru and Huang, Yukai and Chen, Mingxiang and Lei, Xinping and
-            Deng, Fangbing and Chen, Jin and Zhang, Ge and Huang, Wenhao and Liu, Jiaheng},
-  year   = {2026}
+@misc{chen2026msqanativelysourcedmultilingual,
+      title={MSQA: A Natively Sourced Multilingual and Multicultural SimpleQA Benchmark}, 
+      author={Xianru Chen and Yukai Huang and Mingxiang Chen and Xinping Lei and Fangbing Deng and Jin Chen and Ge Zhang and Wenhao Huang and Jiaheng Liu},
+      year={2026},
+      eprint={2607.00724},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2607.00724}, 
 }
 ```
 
